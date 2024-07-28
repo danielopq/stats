@@ -59,14 +59,14 @@ h1 {
 	width: 374px;
 	font: 400 15px/25px 'Inter';
 	color: hsla(0, 0%, 100%, 0.75);
-	margin-top: 45px;
+	margin-top: 25px;
 }
 
 #info-stats {
 	display: flex;
 	flex-direction: row;
 	height: 56px;
-	margin-top: 72px;
+	margin-top: 52px;
 }
 
 #info-stats>div {
