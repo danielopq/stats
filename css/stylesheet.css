@@ -39,23 +39,12 @@ main>div {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-}
-
-#info>div {
-	width: 403px;
-	margin-left: 72px;
-}
-
-#info-text {
-	height: 64px;
-	font: 400 14px 'Inter';
-	color: hsla(0, 0%, 100%, 0.75);
-	line-height: 22px;
-	margin-top: 25px;
+	padding-left: 72px;
 }
 
 #info-head{
 	margin-top: 51px;
+	width: 403px;
 }
 
 h1 {
@@ -64,36 +53,42 @@ h1 {
 	margin: 0px;
 	color: white;
 }
+
+#info-text {
+	height: 75px;
+	width: 374px;
+	font: 400 15px/25px 'Inter';
+	color: hsla(0, 0%, 100%, 0.75);
+	margin-top: 45px;
+}
+
 #info-stats {
 	display: flex;
 	flex-direction: row;
-	height: 40px;
-	margin-top: 70px;
+	height: 56px;
+	margin-top: 72px;
 }
 
 #info-stats>div {
+	height: inherit;
 	font-family: 'Inter';
 	text-align: left;
 }
 
-#stats-companies {
-	width: 135px;
-}
-
 #stats-templates {
-	width: 135px;
+	margin: 0px 63px 0px 63px;
 }
 
 #image {
-	width: 485px;
-	border-radius: 0px 5px 5px 0px;
+	width: 540px;
+	border-radius: 0px 8px 8px 0px;
+	overflow: hidden;
 	background: url("../images/image-header-desktop.jpg") no-repeat center;
 }
 
 #image-color {
 	width: inherit;
 	height: inherit;
-	border-radius: 0px 5px 5px 0px;
 	background-color: hsl(277, 64%, 61%);
 	mix-blend-mode: multiply;
 }
@@ -101,14 +96,18 @@ h1 {
 .amount {
 	color: white;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .stats-headings {
 	color: hsla(0, 0%, 100%, 0.6);
-	font-weight: 400;
-	font-size: 11px;
+	letter-spacing: 1px;
+	font: 400 12px/25px 'Lexend Deca';
 }
+
+
+/*######################## MOBILE VERSION ########################*/
+
 
 @media screen and (max-width: 480px) {
 
