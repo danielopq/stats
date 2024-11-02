@@ -108,7 +108,7 @@ h1 {
 /*######################## MOBILE VERSION ########################*/
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
 
 	main {
 		width: 327px;
